@@ -24,9 +24,10 @@
 - 一款基于 Web3 的夺旗游戏，灵感源自 OverTheWire，需在以太坊虚拟机（EVM）中进行。每个关卡对应一个需被「破解」的智能合约。
 - 该游戏既是以太坊爱好者的学习工具，也是历史黑客事件的关卡化收录平台。游戏关卡数量不限，且无需按特定顺序游玩。
 
-| 序号 |  难度指数  | 挑战名称 (中文) | 挑战名称 (英文) | 跳转到`题目描述`                                                | 跳转到`源码`                                        | 跳转到`解决方案测试单元`                                     |
-|:--:|:------:|:----------|:----------|:---------------------------------------------------------|:-----------------------------------------------|:--------------------------------------------------|
-| 1  | ★☆☆☆☆  | 回退函数      | Fallback  | [点击](./src/ethernaut/01_Fallback/Resources/Challenge.md) | [点击](./src/ethernaut/01_Fallback/Fallback.sol) | [点击](./test/ethernaut_solution/01_Fallback.t.sol) |
-| 2  | ★☆☆☆☆  | 尘埃无形      | Fallout   | [点击](./src/ethernaut/02_Fallout/Resources/Challenge.md)  | [点击](./src/ethernaut/02_Fallout/Fallout.sol)   | [点击](./test/ethernaut_solution/02_Fallout.t.sol)  |
-| 3  | ★★☆☆☆  | 猜硬币	     | CoinFlip   | [点击](./src/ethernaut/03_CoinFlip/Resources/Challenge.md) | [点击](./src/ethernaut/03_CoinFlip/CoinFlip.sol)   | [点击](./test/ethernaut_solution/03_CoinFlip.t.sol)         |
-| 4  | ★☆☆☆☆  | 电话	     | Telephone   | [点击](./src/ethernaut/04_Telephone/Resources/Challenge.md) | [点击](./src/ethernaut/04_Telephone/Telephone.sol)   | [点击](./test/ethernaut_solution/04_Telephone.t.sol)         |
+| 序号 |  难度指数  | 挑战名称 (中文) | 挑战名称 (英文) | 跳转到`题目描述`                                                 | 跳转到`源码`                                          | 跳转到`解决方案测试单元`                                      |
+|:--:|:------:|:----------|:----------|:----------------------------------------------------------|:-------------------------------------------------|:---------------------------------------------------|
+| 1  | ★☆☆☆☆  | 回退函数      | Fallback  | [点击](./src/ethernaut/01_Fallback/Resources/Challenge.md)  | [点击](./src/ethernaut/01_Fallback/Fallback.sol)   | [点击](./test/ethernaut_solution/01_Fallback.t.sol)  |
+| 2  | ★☆☆☆☆  | 尘埃无形      | Fallout   | [点击](./src/ethernaut/02_Fallout/Resources/Challenge.md)   | [点击](./src/ethernaut/02_Fallout/Fallout.sol)     | [点击](./test/ethernaut_solution/02_Fallout.t.sol)   |
+| 3  | ★★☆☆☆  | 猜硬币	     | CoinFlip   | [点击](./src/ethernaut/03_CoinFlip/Resources/Challenge.md)  | [点击](./src/ethernaut/03_CoinFlip/CoinFlip.sol)   | [点击](./test/ethernaut_solution/03_CoinFlip.t.sol)  |
+| 4  | ★☆☆☆☆  | 电话	     | Telephone   | [点击](./src/ethernaut/04_Telephone/Resources/Challenge.md) | [点击](./src/ethernaut/04_Telephone/Telephone.sol) | [点击](./test/ethernaut_solution/04_Telephone.t.sol) |
+| 5  | ★★☆☆☆  | 代币	     | Token   | [点击](./src/ethernaut/05_Token/Resources/Challenge.md)     | [点击](./src/ethernaut/05_Token/Token.sol)         | [点击](./test/ethernaut_solution/05_Token.t.sol)     |
