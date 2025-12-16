@@ -31,3 +31,4 @@
 | 3  | ★★☆☆☆  | 猜硬币	     | CoinFlip   | [点击](./src/ethernaut/03_CoinFlip/Resources/Challenge.md)  | [点击](./src/ethernaut/03_CoinFlip/CoinFlip.sol)   | [点击](./test/ethernaut_solution/03_CoinFlip.t.sol)  |
 | 4  | ★☆☆☆☆  | 电话	     | Telephone   | [点击](./src/ethernaut/04_Telephone/Resources/Challenge.md) | [点击](./src/ethernaut/04_Telephone/Telephone.sol) | [点击](./test/ethernaut_solution/04_Telephone.t.sol) |
 | 5  | ★★☆☆☆  | 代币	     | Token   | [点击](./src/ethernaut/05_Token/Resources/Challenge.md)     | [点击](./src/ethernaut/05_Token/Token.sol)         | [点击](./test/ethernaut_solution/05_Token.t.sol)     |
+| 6  | ★★☆☆☆  | 委托	     | Delegate   | [点击](./src/ethernaut/06_Delegate/Resources/Challenge.md)  | [点击](./src/ethernaut/06_Delegate/Delegate.sol)   | [点击](./test/ethernaut_solution/06_Delegate.t.sol)  |
