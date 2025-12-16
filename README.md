@@ -48,4 +48,5 @@
 | 20 | ★★★☆☆  | 拒绝服务	     | Denial        | [点击](./src/ethernaut/20_Denial/Resources/Challenge.md)        | [点击](./src/ethernaut/20_Denial/Denial.sol)               | [点击](./test/ethernaut_solution/20_Denial.t.sol)        |
 | 21 | ★★☆☆☆  | 商店	       | Shop          | [点击](./src/ethernaut/21_Shop/Resources/Challenge.md)          | [点击](./src/ethernaut/21_Shop/Shop.sol)                   | [点击](./test/ethernaut_solution/21_Shop.t.sol)          |
 | 22 | ★★☆☆☆  | 去中心交易所	   | Dex           | [点击](./src/ethernaut/22_Dex/Resources/Challenge.md)           | [点击](./src/ethernaut/22_Dex/Dex.sol)                     | [点击](./test/ethernaut_solution/22_Dex.t.sol)           |
-| 23 | ★★☆☆☆  | 去中心交易所二号	 | DexTwo        | [点击](./src/ethernaut/23_DexTwo/Resources/Challenge.md)           | [点击](./src/ethernaut/23_DexTwo/DexTwo.sol)                     | [点击](./test/ethernaut_solution/23_DexTwo.t.sol)           |
+| 23 | ★★☆☆☆  | 去中心交易所二号	 | DexTwo        | [点击](./src/ethernaut/23_DexTwo/Resources/Challenge.md)        | [点击](./src/ethernaut/23_DexTwo/DexTwo.sol)               | [点击](./test/ethernaut_solution/23_DexTwo.t.sol)        |
+| 24 | ★★★★☆  | 谜题钱包	     | PuzzleWallet        | [点击](./src/ethernaut/24_PuzzleWallet/Resources/Challenge.md)  | [点击](./src/ethernaut/24_PuzzleWallet/PuzzleWallet.sol)   | [点击](./test/ethernaut_solution/24_PuzzleWallet.t.sol)  |
