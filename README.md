@@ -6,3 +6,4 @@
 | 序号 | 挑战名称 (中文)        | 挑战名称 (英文)                | 跳转到`题目说明`                                                  | 跳转到`源码`                                             | 跳转到`解决方案测试单元`                                         
 |:--:|:---------------------|:----------------------------|:---------------------------------------------------------|:----------------------------------------------------|:------------------------------------------------------
 | 1  | 迷失的小猫             | TheLostKitty              | [点击](src/eko2022/01_TheLostKitty/Resources/Challenge.md) | [点击](src/eko2022/01_TheLostKitty/TheLostKitty.sol)           | [点击](./test/eko2022_solution/01_TheLostKitty.t.sol) |
+| 2  | 入侵母舰             | HackTheMotherShip              | [点击](src/eko2022/02_HackTheMotherShip/Resources/Challenge.md) | [点击](src/eko2022/02_HackTheMotherShip/HackTheMotherShip.sol)           | [点击](./test/eko2022_solution/02_HackTheMotherShip.t.sol) |
