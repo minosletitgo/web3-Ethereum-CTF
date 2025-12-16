@@ -28,4 +28,5 @@
 |:--:|:------:|:----------|:----------|:---------------------------------------------------------|:-----------------------------------------------|:--------------------------------------------------|
 | 1  | ★☆☆☆☆  | 回退函数      | Fallback  | [点击](./src/ethernaut/01_Fallback/Resources/Challenge.md) | [点击](./src/ethernaut/01_Fallback/Fallback.sol) | [点击](./test/ethernaut_solution/01_Fallback.t.sol) |
 | 2  | ★☆☆☆☆  | 尘埃无形      | Fallout   | [点击](./src/ethernaut/02_Fallout/Resources/Challenge.md)  | [点击](./src/ethernaut/02_Fallout/Fallout.sol)   | [点击](./test/ethernaut_solution/02_Fallout.t.sol)  |
-| 3  | ★★☆☆☆  | 猜硬币	     | CoinFlip   | [点击](./src/ethernaut/03_CoinFlip/Resources/Challenge.md)  | [点击](./src/ethernaut/03_CoinFlip/CoinFlip.sol)   | [点击](./test/ethernaut_solution/03_CoinFlip.t.sol)         |
+| 3  | ★★☆☆☆  | 猜硬币	     | CoinFlip   | [点击](./src/ethernaut/03_CoinFlip/Resources/Challenge.md) | [点击](./src/ethernaut/03_CoinFlip/CoinFlip.sol)   | [点击](./test/ethernaut_solution/03_CoinFlip.t.sol)         |
+| 4  | ★☆☆☆☆  | 电话	     | Telephone   | [点击](./src/ethernaut/04_Telephone/Resources/Challenge.md) | [点击](./src/ethernaut/04_Telephone/Telephone.sol)   | [点击](./test/ethernaut_solution/04_Telephone.t.sol)         |
