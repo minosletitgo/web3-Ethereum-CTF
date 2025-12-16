@@ -13,6 +13,17 @@
 | 6  | 智能魂器             | SmartHorrocrux              | [点击](src/eko2022/06_SmartHorrocrux/Resources/Challenge.md)       | [点击](src/eko2022/06_SmartHorrocrux/SmartHorrocrux.sol)             | [点击](./test/eko2022_solution/06_SmartHorrocrux.t.sol)       |
 | 7  | 黄金门票             | TheGoldenTicket              | [点击](src/eko2022/07_TheGoldenTicket/Resources/Challenge.md)      | [点击](src/eko2022/07_TheGoldenTicket/TheGoldenTicket.sol)           | [点击](./test/eko2022_solution/07_TheGoldenTicket.t.sol)      |
 | 8  | 股票操盘             | Stonks              | [点击](src/eko2022/08_Stonks/Resources/Challenge.md)               | [点击](src/eko2022/08_Stonks/Stonks.sol)                             | [点击](./test/eko2022_solution/08_Stonks.t.sol)               |
-| 9  | 凤凰重生             | Phoenixtto              | [点击](src/eko2022/09_Phoenixtto/Resources/Challenge.md)           | [点击](src/eko2022/09_Phoenixtto/Phoenixtto.sol)                     | [点击](./test/eko2022_solution/09_Phoenixtto.t.sol)           |
+| 9  | 凤凰重生             | Phoenixtto              | [点击](src/eko2022/09_Phoenixtto/Resources/Challenge.md)           | [点击](src/eko2022/09_Phoenixtto/Phoenixtto.sol)                     | ❌[点击](./test/eko2022_solution/09_Phoenixtto.t.sol)           |
 | 10 | 球王绝技             | Pelusa              | [点击](src/eko2022/10_Pelusa/Resources/Challenge.md)               | [点击](src/eko2022/10_Pelusa/Pelusa.sol)                             | [点击](./test/eko2022_solution/10_Pelusa.t.sol)               |
 | 11 | 燃气阀门             | GasValve              | [点击](src/eko2022/11_GasValve/Resources/Challenge.md)               | [点击](src/eko2022/11_GasValve/GasValve.sol)                                   | [点击](./test/eko2022_solution/11_GasValve.t.sol)               |
+
+-------------------------------------------------------
+
+### 以太坊夺旗赛
+- 原址：https://ethernaut.openzeppelin.com
+- 一款基于 Web3 的夺旗游戏，灵感源自 OverTheWire，需在以太坊虚拟机（EVM）中进行。每个关卡对应一个需被「破解」的智能合约。
+- 该游戏既是以太坊爱好者的学习工具，也是历史黑客事件的关卡化收录平台。游戏关卡数量不限，且无需按特定顺序游玩。
+
+| 序号 |  难度指数  | 挑战名称 (中文) | 挑战名称 (英文)        | 跳转到`题目描述`                                                | 跳转到`源码`                                    | 跳转到`解决方案测试单元`                             |
+|:--:|:------:|:----------|:-----------------|:---------------------------------------------------------|:-------------------------------------------|:------------------------------------------|
+| 1  | ★☆☆☆☆  | 回退函数      | Fallback         | [点击](./src/ethernaut/01_Fallback/Resources/Challenge.md) | [点击](./src/ethernaut/01_Fallback/Fallback.sol)      | [点击](./test/ethernaut_solution/01_Fallback.t.sol) |
