@@ -42,3 +42,4 @@
 | 14 | ★★★☆☆  | 守门人二号	    | GatekeeperTwo | [点击](./src/ethernaut/14_GatekeeperTwo/Resources/Challenge.md) | [点击](./src/ethernaut/14_GatekeeperTwo/GatekeeperTwo.sol) | [点击](./test/ethernaut_solution/14_GatekeeperTwo.t.sol) |
 | 15 | ★★★☆☆  | 零币合约	    | NaughtCoin | [点击](./src/ethernaut/15_NaughtCoin/Resources/Challenge.md)    | [点击](./src/ethernaut/15_NaughtCoin/NaughtCoin.sol)       | [点击](./test/ethernaut_solution/15_NaughtCoin.t.sol)    |
 | 16 | ★★★★☆  | 时间存储	    | Preservation | [点击](./src/ethernaut/16_Preservation/Resources/Challenge.md)  | [点击](./src/ethernaut/16_Preservation/Preservation.sol)   | [点击](./test/ethernaut_solution/16_Preservation.t.sol)  |
+| 17 | ★★★☆☆  | 恢复	    | Recovery | [点击](./src/ethernaut/17_Recovery/Resources/Challenge.md)      | [点击](./src/ethernaut/17_Recovery/Recovery.sol)           | [点击](./test/ethernaut_solution/17_Recovery.t.sol)      |
