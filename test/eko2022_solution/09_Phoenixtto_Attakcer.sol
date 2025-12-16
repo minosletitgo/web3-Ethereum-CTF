@@ -3,15 +3,15 @@ pragma solidity ^0.8.24;
 
 import {Test} from "forge-std/Test.sol";
 import {console} from "forge-std/console.sol";
-import {Stonks} from "../../src/eko2022/08_Stonks/Stonks.sol";
+import {Laboratory, Phoenixtto} from "../../src/eko2022/09_Phoenixtto/Phoenixtto.sol";
 
-contract Stonks_Attacker {
+contract Phoenixtto_Attacker {
 	address player;
-	Stonks stonks;
+	Laboratory laboratory;
 	
-	constructor(Stonks stonks_) {
+	constructor(Laboratory laboratory_) {
 		player = msg.sender;
-		stonks = stonks_;
+		laboratory = laboratory_;
 	}
 	
 	receive() external payable {}
