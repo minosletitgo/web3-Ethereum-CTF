@@ -37,3 +37,4 @@
 | 9  | ★★★☆☆  | 国王	     | King   | [点击](./src/ethernaut/09_King/Resources/Challenge.md)       | [点击](./src/ethernaut/09_King/King.sol)             | [点击](./test/ethernaut_solution/09_King.t.sol)       |
 | 10 | ★★★☆☆  | 重入攻击	     | Reentrance   | [点击](./src/ethernaut/10_Reentrance/Resources/Challenge.md) | [点击](./src/ethernaut/10_Reentrance/Reentrance.sol) | [点击](./test/ethernaut_solution/10_Reentrance.t.sol) |
 | 11 | ★★☆☆☆  | 电梯	     | Elevator   | [点击](./src/ethernaut/11_Elevator/Resources/Challenge.md)   | [点击](./src/ethernaut/11_Elevator/Elevator.sol)     | [点击](./test/ethernaut_solution/11_Elevator.t.sol)   |
+| 12 | ★★★☆☆  | 隐私保护	     | Privacy   | [点击](./src/ethernaut/12_Privacy/Resources/Challenge.md)    | [点击](./src/ethernaut/12_Privacy/Privacy.sol)       | [点击](./test/ethernaut_solution/12_Privacy.t.sol)    |
