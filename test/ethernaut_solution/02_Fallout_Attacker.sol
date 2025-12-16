@@ -3,13 +3,13 @@ pragma solidity ^0.8.24;
 
 import {Test} from "forge-std/Test.sol";
 import {console} from "forge-std/console.sol";
-import {Fallback} from "../../src/ethernaut/01_Fallback/Fallback.sol";
+import {Fallout} from "../../src/ethernaut/02_Fallout/Fallout.sol";
 
-contract Fallback_Attacker {
+contract Fallout_Attacker {
 	address player;
-	Fallback coreInst;
+	Fallout coreInst;
 	
-	constructor(Fallback coreInst_) payable {
+	constructor(Fallout coreInst_) payable {
 		player = msg.sender;
 		coreInst = coreInst_;
 	}
