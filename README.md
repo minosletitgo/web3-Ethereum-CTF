@@ -45,3 +45,4 @@
 | 17 | ★★★☆☆  | 恢复	    | Recovery | [点击](./src/ethernaut/17_Recovery/Resources/Challenge.md)      | [点击](./src/ethernaut/17_Recovery/Recovery.sol)           | [点击](./test/ethernaut_solution/17_Recovery.t.sol)      |
 | 18 | ★★★☆☆  | 魔法数字	    | MagicNumber | [点击](./src/ethernaut/18_MagicNumber/Resources/Challenge.md)   | [点击](./src/ethernaut/18_MagicNumber/MagicNumber.sol)     | [点击](./test/ethernaut_solution/18_MagicNumber.t.sol)   |
 | 19 | ★★★★☆  | 外星人	    | AlienCodex | [点击](./src/ethernaut/19_AlienCodex/Resources/Challenge.md)    | [点击](./src/ethernaut/19_AlienCodex/AlienCodex.sol)       | [点击](./test/ethernaut_solution/19_AlienCodex.t.sol)    |
+| 20 | ★★★☆☆  | 拒绝服务	    | Denial | [点击](./src/ethernaut/20_Denial/Resources/Challenge.md)        | [点击](./src/ethernaut/20_Denial/Denial.sol)               | [点击](./test/ethernaut_solution/20_Denial.t.sol)        |
