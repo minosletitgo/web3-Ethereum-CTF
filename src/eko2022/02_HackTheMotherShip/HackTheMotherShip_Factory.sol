@@ -2,18 +2,18 @@
 pragma solidity ^0.8.24;
 
 import "../../base/Level.sol";
-import "./TheLostKitty.sol";
+import "./HackTheMotherShip.sol";
 
-contract TheLostKitty_Factory is Level {
+contract HackTheMotherShip_Factory is Level {
 	function createInstance(address _player) public payable override returns (address) {
 		_player; // 消除警告
-		instance = address(new House());
+		instance = address(new Mothership());
 		return instance;
 	}
 	
 	function validateInstance(address _player) public view override returns (bool) {
 		_player; // 消除警告
-		House inst = House(instance);
-		return inst.catFound();
+		Mothership inst = Mothership(instance);
+		return inst.hacked();
 	}
 }
