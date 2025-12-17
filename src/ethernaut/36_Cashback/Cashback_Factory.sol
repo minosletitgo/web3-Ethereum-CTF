@@ -1,0 +1,79 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "../../base/Level.sol";
+import {Cashback, Currency} from "./Cashback.sol";
+
+import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
+
+contract Cashback_Factory is Level {
+	FreedomCoin public immutable FREE;
+	address constant NATIVE_CURRENCY = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE;
+	address constant BOB = address(0xB0B);
+	uint256 constant NATIVE_CASHBACK_RATE = 50; // 0.5%
+	uint256 constant FREE_CASHBACK_RATE = 200; // 2%
+	uint256 constant NATIVE_MAX_CASHBACK = 1 ether;
+	uint256 constant FREE_MAX_CASHBACK = 500 ether;
+	
+	function createInstance(address _player) public payable override returns (address) {
+		_player; // 消除警告
+		
+		// Deploy Super Cashback NFT
+		SuperCashbackNFT superCashbackNFT = new SuperCashbackNFT();
+		
+		// Deploy Cashback
+		address[] memory cashbackCurrencies = new address[](2);
+		cashbackCurrencies[0] = NATIVE_CURRENCY;
+		cashbackCurrencies[1] = address(FREE);
+		
+		uint256[] memory cashbackRates = new uint256[](2);
+		cashbackRates[0] = NATIVE_CASHBACK_RATE;
+		cashbackRates[1] = FREE_CASHBACK_RATE;
+		
+		uint256[] memory maxCashback = new uint256[](2);
+		maxCashback[0] = NATIVE_MAX_CASHBACK;
+		maxCashback[1] = FREE_MAX_CASHBACK;
+		
+		Cashback cashback = new Cashback(cashbackCurrencies, cashbackRates, maxCashback, address(superCashbackNFT));
+		
+		// Transfer Super Cashback NFT ownership to Cashback
+		superCashbackNFT.transferOwnership(address(cashback));
+		
+		instance = address(cashback);
+		
+		return instance;
+	}
+	
+	function validateInstance(address _player) public view override returns (bool) {
+		_player; // 消除警告
+		
+		bytes23 expectedCode = bytes23(bytes.concat(hex"ef0100", abi.encodePacked(instance)));
+		
+		Cashback cashback = Cashback(payable(instance));
+		
+		return cashback.balanceOf(_player, Currency.wrap(NATIVE_CURRENCY).toId()) == NATIVE_MAX_CASHBACK
+		&& cashback.balanceOf(_player, Currency.wrap(address(FREE)).toId()) == FREE_MAX_CASHBACK
+		&& ERC721(cashback.superCashbackNFT()).ownerOf(uint256(uint160(_player))) == _player
+		&& ERC721(cashback.superCashbackNFT()).balanceOf(_player) >= 2 && _player.code.length == 23
+			&& bytes23(_player.code) == expectedCode;
+	}
+}
+
+contract SuperCashbackNFT is ERC721, Ownable {
+	constructor() ERC721("Super Cashback", "SCB") Ownable(msg.sender) {}
+	
+	function mint(address receiver) public onlyOwner {
+		_mint(receiver, uint256(uint160(receiver)));
+	}
+}
+
+contract FreedomCoin is ERC20, Ownable {
+	constructor() ERC20("Freedom Coin", "FREE") Ownable(msg.sender) {}
+	
+	function mint(address to, uint256 amount) public onlyOwner {
+		_mint(to, amount);
+	}
+}
+
