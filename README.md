@@ -57,3 +57,4 @@
 | 29 | ★★★★☆  | 开关	     | Switch        | [点击](./src/ethernaut/29_Switch/Resources/Challenge.md)           | [点击](./src/ethernaut/29_Switch/Switch.sol)                     | [点击](./test/ethernaut_solution/29_Switch.t.sol)           |
 | 30 | ★★★★☆  | 高阶	     | HigherOrder        | [点击](./src/ethernaut/30_HigherOrder/Resources/Challenge.md)      | [点击](./src/ethernaut/30_HigherOrder/HigherOrder.sol)           | ❌[点击](./test/ethernaut_solution/30_HigherOrder.t.sol)     |
 | 31 | ★★★☆☆  | 质押	     | Stake        | [点击](./src/ethernaut/31_Stake/Resources/Challenge.md)            | [点击](./src/ethernaut/31_Stake/Stake.sol)                       | [点击](./test/ethernaut_solution/31_Stake.t.sol)            |
+| 32 | ★★★★☆  | 身份伪造者	     | Impersonator        | [点击](./src/ethernaut/32_Impersonator/Resources/Challenge.md)     | [点击](./src/ethernaut/32_Impersonator/Impersonator.sol)         | [点击](./test/ethernaut_solution/32_Impersonator.t.sol)     |
