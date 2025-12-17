@@ -52,3 +52,4 @@
 | 24 | ★★★★☆  | 谜题钱包	     | PuzzleWallet        | [点击](./src/ethernaut/24_PuzzleWallet/Resources/Challenge.md)     | [点击](./src/ethernaut/24_PuzzleWallet/PuzzleWallet.sol)         | [点击](./test/ethernaut_solution/24_PuzzleWallet.t.sol)      |
 | 25 | ★★★☆☆  | 摩托车	     | Motorbike        | [点击](./src/ethernaut/25_Motorbike/Resources/Challenge.md)        | [点击](./src/ethernaut/25_Motorbike/Motorbike.sol)               | ❌[点击](./test/ethernaut_solution/25_Motorbike.t.sol)        |
 | 26 | ★★☆☆☆  | 双重入口点	     | DoubleEntryPoint        | [点击](./src/ethernaut/26_DoubleEntryPoint/Resources/Challenge.md) | [点击](./src/ethernaut/26_DoubleEntryPoint/DoubleEntryPoint.sol) | ❌[点击](./test/ethernaut_solution/26_DoubleEntryPoint.t.sol) |
+| 27 | ★★★☆☆  | 乐善好施者	     | GoodSamaritan        | [点击](./src/ethernaut/27_GoodSamaritan/Resources/Challenge.md)    | [点击](./src/ethernaut/27_GoodSamaritan/GoodSamaritan.sol)       | ❌[点击](./test/ethernaut_solution/27_GoodSamaritan.t.sol)    |
