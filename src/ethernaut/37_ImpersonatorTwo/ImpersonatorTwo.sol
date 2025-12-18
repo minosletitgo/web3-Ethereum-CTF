@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
-import {ECDSA} from "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
-import {MessageHashUtils} from "@openzeppelin/contracts/utils/cryptography/MessageHashUtils.sol";
-import {Strings} from "@openzeppelin/contracts/utils/Strings.sol";
+import {Ownable} from "openzeppelin-contracts-v5.5.0/access/Ownable.sol";
+import {ECDSA} from "openzeppelin-contracts-v5.5.0/utils/cryptography/ECDSA.sol";
+import {MessageHashUtils} from "openzeppelin-contracts-v5.5.0/utils/cryptography/MessageHashUtils.sol";
+import {Strings} from "openzeppelin-contracts-v5.5.0/utils/Strings.sol";
 
 contract ImpersonatorTwo is Ownable {
 	using Strings for uint256;

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "openzeppelin-contracts-v5.5.0/token/ERC20/ERC20.sol";
 
 contract NaughtCoin is ERC20 {
 	// string public constant name = 'NaughtCoin';

@@ -21,3 +21,6 @@ runs = 256  # 模糊测试的运行次数
 [invariant]
 runs = 256
 depth = 30
+
+# 完全禁用自动安装
+auto_install_remappings = false

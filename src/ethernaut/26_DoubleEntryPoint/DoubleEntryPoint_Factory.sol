@@ -3,7 +3,7 @@ pragma solidity ^0.8.24;
 
 import "../../base/Level.sol";
 import {Forta, CryptoVault, LegacyToken, DoubleEntryPoint, DelegateERC20, IDetectionBot, IForta} from "./DoubleEntryPoint.sol";
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "openzeppelin-contracts-v5.5.0/token/ERC20/ERC20.sol";
 
 contract DoubleEntryPoint_Factory is Level {
 	Forta public forta;

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-import "@openzeppelin/contracts/utils/cryptography/EIP712.sol";
+import "openzeppelin-contracts-v5.5.0/utils/cryptography/EIP712.sol";
 
 	struct OraclePrice {
 		uint256 blockNumber;

@@ -5,9 +5,9 @@ pragma solidity ^0.8.24;
 //import {Ownable} from "openzeppelin-contracts-08/access/Ownable.sol";
 //import {ReentrancyGuard} from "openzeppelin-contracts-08/security/ReentrancyGuard.sol";
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
+import "openzeppelin-contracts-v5.5.0/token/ERC20/ERC20.sol";
+import "openzeppelin-contracts-v5.5.0/access/Ownable.sol";
+import "openzeppelin-contracts-v5.5.0/utils/ReentrancyGuard.sol";
 
 contract BetHouse {
 	address public pool;

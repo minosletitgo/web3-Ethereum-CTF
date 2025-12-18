@@ -2,10 +2,10 @@
 
 pragma solidity ^0.8.24;
 
-//import "@openzeppelin/contracts/utils/Address.sol";
+//import "openzeppelin-contracts-v5.5.0/utils/Address.sol";
 //import "openzeppelin-contracts-06/utils/Address.sol";
 //import "openzeppelin-contracts-06/proxy/Initializable.sol";
-import "@openzeppelin/contracts/proxy/utils/Initializable.sol";
+import "openzeppelin-contracts-v5.5.0/proxy/utils/Initializable.sol";
 import "../helpers/Address.sol";
 
 contract Motorbike {

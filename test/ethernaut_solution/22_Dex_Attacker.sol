@@ -5,7 +5,7 @@ import {Test} from "forge-std/Test.sol";
 import {console} from "forge-std/console.sol";
 import {Dex} from "../../src/ethernaut/22_Dex/Dex.sol";
 
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "openzeppelin-contracts-v5.5.0/token/ERC20/IERC20.sol";
 
 contract Dex_Attacker {
 	address player;

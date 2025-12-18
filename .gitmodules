@@ -4,6 +4,6 @@
 [submodule "lib/solmate"]
 	path = lib/solmate
 	url = https://github.com/transmissions11/solmate
-[submodule "lib/openzeppelin-contracts"]
-	path = lib/openzeppelin-contracts
-	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "contracts/lib/openzeppelin-contracts-v5.5.0"]
+	path = contracts/lib/openzeppelin-contracts-v5.5.0
+	url = https://github.com/openzeppelin/openzeppelin-contracts

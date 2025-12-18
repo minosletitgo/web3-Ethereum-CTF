@@ -7,9 +7,9 @@ import {console} from "forge-std/console.sol";
 //import {ECDSA} from "openzeppelin-contracts-08/utils/cryptography/ECDSA.sol";
 //import {ERC20} from "openzeppelin-contracts-08/token/ERC20/ERC20.sol";
 
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "openzeppelin-contracts-v5.5.0/access/Ownable.sol";
+import "openzeppelin-contracts-v5.5.0/utils/cryptography/ECDSA.sol";
+import "openzeppelin-contracts-v5.5.0/token/ERC20/ERC20.sol";
 
 
 contract EllipticToken is Ownable, ERC20 {

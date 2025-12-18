@@ -4,8 +4,8 @@ pragma solidity ^0.8.24;
 import {Test} from "forge-std/Test.sol";
 import {console} from "forge-std/console.sol";
 import {Cashback, Currency} from "../../src/ethernaut/36_Cashback/Cashback.sol";
-import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import {IERC721} from "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+import {IERC20} from "openzeppelin-contracts-v5.5.0/token/ERC20/IERC20.sol";
+import {IERC721} from "openzeppelin-contracts-v5.5.0/token/ERC721/IERC721.sol";
 
 contract Cashback_Attacker {
 	uint256 internal constant SUPERCASHBACK_NONCE = 10000;

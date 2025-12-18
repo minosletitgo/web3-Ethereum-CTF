@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "openzeppelin-contracts-v5.5.0/access/Ownable.sol";
 import {console} from "forge-std/console.sol";
 
 // SlockDotIt ECLocker factory

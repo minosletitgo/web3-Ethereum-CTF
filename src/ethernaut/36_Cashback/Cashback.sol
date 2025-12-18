@@ -6,10 +6,10 @@ pragma solidity ^0.8.24;
 //import {ERC1155} from "openzeppelin-contracts-v5.4.0/token/ERC1155/ERC1155.sol";
 //import {TransientSlot} from "openzeppelin-contracts-v5.4.0/utils/TransientSlot.sol";
 
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
-import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
-import "@openzeppelin/contracts/utils/TransientSlot.sol";
+import "openzeppelin-contracts-v5.5.0/token/ERC20/IERC20.sol";
+import "openzeppelin-contracts-v5.5.0/token/ERC721/IERC721.sol";
+import "openzeppelin-contracts-v5.5.0/token/ERC1155/ERC1155.sol";
+import "openzeppelin-contracts-v5.5.0/utils/TransientSlot.sol";
 
 
 /*//////////////////////////////////////////////////////////////

@@ -4,9 +4,9 @@ pragma solidity ^0.8.24;
 import "../../base/Level.sol";
 import {Cashback, Currency} from "./Cashback.sol";
 
-import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
+import {ERC721} from "openzeppelin-contracts-v5.5.0/token/ERC721/ERC721.sol";
+import {ERC20} from "openzeppelin-contracts-v5.5.0/token/ERC20/ERC20.sol";
+import {Ownable} from "openzeppelin-contracts-v5.5.0/access/Ownable.sol";
 
 contract Cashback_Factory is Level {
 	FreedomCoin public immutable FREE;

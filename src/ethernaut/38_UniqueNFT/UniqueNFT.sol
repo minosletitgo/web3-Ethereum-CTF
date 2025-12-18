@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-import { ERC721 } from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import { ERC721Utils } from "@openzeppelin/contracts/token/ERC721/utils/ERC721Utils.sol";
-import { ReentrancyGuard } from "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
+import { ERC721 } from "openzeppelin-contracts-v5.5.0/token/ERC721/ERC721.sol";
+import { ERC721Utils } from "openzeppelin-contracts-v5.5.0/token/ERC721/utils/ERC721Utils.sol";
+import { ReentrancyGuard } from "openzeppelin-contracts-v5.5.0/utils/ReentrancyGuard.sol";
 
 import {console} from "forge-std/console.sol";
 
