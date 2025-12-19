@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-import { ERC20 } from "openzeppelin-contracts-v5.5.0/token/ERC20/ERC20.sol";
-import { ECDSA } from "openzeppelin-contracts-v5.5.0/utils/cryptography/ECDSA.sol";
+import { ERC20 } from "openzeppelin-contracts-v4.6.0/token/ERC20/ERC20.sol";
+import { ECDSA } from "openzeppelin-contracts-v4.6.0/utils/cryptography/ECDSA.sol";
 
 contract Forger is ERC20 {
 	

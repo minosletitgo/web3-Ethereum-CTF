@@ -48,6 +48,11 @@ contract Forger_Test is Test {
 		// CODE YOUR SOLUTION HERE
 		// forge test --mt test__Solution_Forger -vv
 		
+		// 本次挑战，无需关注椭圆曲线的原始算法（怪不得难度系数是●●●○○，而不是●●●●○，🥹）
+		// 但是，需要非常敏锐的察觉到 "openzeppelin-contracts-v4.6.0/utils/cryptography/ECDSA.sol" 此时，容忍两种签名格式(即，65字节签名值 与 64字节签名值)
+		// 该容忍会造成：同一套用户数据，表现出`2套签名值`。即，签名伪造。类似于`签名延展性的孪生兄弟`。
+		// OpenZeppelin的官方仓库，修复此问题的具体时间是：Aug 11, 2022 | 4.8.0-rc.0 版本发布的前夕 | d693d89d99325f395182e4f547dbf5ff8e5c3c87
+		
 		console.log("instContract.totalSupply()", instContract.totalSupply());
 		
 		Forger_Attacker attacker = new Forger_Attacker(instContract);
