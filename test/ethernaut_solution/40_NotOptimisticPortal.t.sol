@@ -48,6 +48,8 @@ contract NotOptimisticPortal_Test is Test {
 		// CODE YOUR SOLUTION HERE
 		// forge test --mt test__Solution_NotOptimisticPortal -vv
 		
-		console.log("Hello World");
+		// `Keccak-256(onMessageReceived(bytes))` -> `3a69197e8e90929927811b792cbf4f2a8f5a2ae4e46a89388fc0b97e828781c5`
+		// `Keccak-256(transferOwnership_____610165642(address))` -> `3a69197e76013728f833379fd5ab628ef351381aeb41845c1666513ce561395b`
+		
 	}
 }
